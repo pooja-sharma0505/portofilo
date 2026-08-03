@@ -111,7 +111,7 @@ const projects = [
       'Integrated with MySQL for real-time analytics'
     ],
     stack: ['Nuxt.js', 'MySQL', 'JavaScript'],
-    href: '',
+    href: 'gh repo clone pooja-sharma0505/Report-center',
     demo: '',
     image: '/projects/report-center.png'
   }
