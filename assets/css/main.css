@@ -1,0 +1,107 @@
+:root {
+  /* Color — paper white, ink charcoal, navy for authority, brass as a single quiet accent */
+  --bg: #F6F5F1;
+  --surface: #FFFFFF;
+  --ink: #1C1F26;
+  --brass: #A9824C;
+  --accent: #1F3A5F;
+  --accent-deep: #142943;
+  --muted: #5C6270;
+  --line: #E1DFD6;
+
+  /* Type */
+  --font-display: 'Source Serif 4', serif;
+  --font-body: 'Inter', sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+
+  /* Layout */
+  --max-w: 1080px;
+  --radius: 4px;
+}
+
+* { box-sizing: border-box; min-width: 0; }
+
+html, body { overflow-x: hidden; max-width: 100%; }
+
+html { scroll-behavior: smooth; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; }
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: inherit; }
+
+h1, h2, h3 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin: 0 0 0.5em;
+}
+
+p { margin: 0 0 1em; color: var(--muted); }
+
+.wrap {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+  display: block;
+  margin-bottom: 0.75em;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  padding: 12px 20px;
+  border-radius: var(--radius);
+  border: 1px solid var(--line);
+  text-decoration: none;
+  color: var(--ink);
+  background: transparent;
+  cursor: pointer;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.btn:hover { border-color: var(--accent); transform: translateY(-1px); }
+
+.btn-solid {
+  background: var(--accent);
+  color: var(--bg);
+  border-color: var(--accent);
+  font-weight: 600;
+}
+
+.btn-solid:hover { background: var(--brass); border-color: var(--brass); }
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+section { padding: 96px 0; border-top: 1px solid var(--line); }
+section:first-of-type { border-top: none; }
+
+@media (max-width: 640px) {
+  section { padding: 56px 0; }
+}
