@@ -15,7 +15,7 @@ const close = () => { open.value = false }
   <header class="nav">
     <div class="wrap nav-inner">
       <a href="#top" class="brand" @click="close">
-        <span class="brand-mark">&lt;PS/&gt;</span>
+        <span class="brand-mark">portofilo</span>
       </a>
 
       <nav class="links">
