@@ -73,20 +73,20 @@ const projects = [
     image: '/projects/scholar-ms.png',
     demoNote: 'Demo credentials available on request'
   },
-  {
-    index: '04',
-    name: 'Staff Attendance Admin Panel',
-    description: 'An internal staff attendance system for Welfog Internet — includes both an admin panel for management oversight and a mobile-friendly app for staff to clock in/out. Proprietary code — not publicly available.',
-    highlights: [
-      'Built a responsive admin dashboard for tracking staff attendance and generating reports',
-      'Implemented role-based access control for admin and manager roles',
-      'Integrated with internal HR systems via REST API'
-    ],
-    stack: ['Nuxt.js', 'REST API', 'JavaScript'],
-    href: '',
-    demo: '',
-    image: '/projects/admin-panel.png'
-  },
+  // {
+  //   index: '04',
+  //   name: 'Staff Attendance Admin Panel',
+  //   description: 'An internal staff attendance system for Welfog Internet — includes both an admin panel for management oversight and a mobile-friendly app for staff to clock in/out. Proprietary code — not publicly available.',
+  //   highlights: [
+  //     'Built a responsive admin dashboard for tracking staff attendance and generating reports',
+  //     'Implemented role-based access control for admin and manager roles',
+  //     'Integrated with internal HR systems via REST API'
+  //   ],
+  //   stack: ['Nuxt.js', 'REST API', 'JavaScript'],
+  //   href: '',
+  //   demo: '',
+  //   image: '/projects/admin-panel.png'
+  // },
   {
     index: '05',
     name: 'Welfog Admin Panel',
@@ -131,7 +131,7 @@ const experience = [
     role: 'Intern',
     org: 'The Brand Chapter',
     period: 'May 2024 — Nov 2024',
-    bullets: ['Developed and deployed 10+ WordPress sites for client projects, delivering on-time builds with strong client feedback']
+    bullets: ['Developed and deployed  WordPress sites for client projects, delivering on-time builds with strong client feedback']
   }
 ]
 </script>
