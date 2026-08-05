@@ -41,7 +41,7 @@ const projects = [
     ],
     stack: ['Nuxt.js', 'REST API', 'JavaScript'],
     href: 'https://github.com/pooja-sharma0505/buyer-project',
-    demo: 'https://buyer-project.netlify.app/',
+    demo: 'buyer-project.vercel.app',
     image: '/projects/buyer-project.png'
   },
   {
