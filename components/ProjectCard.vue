@@ -27,7 +27,7 @@ defineProps({
       <a v-if="demo" :href="demo" target="_blank" rel="noopener" class="card-link">
         Live demo <span class="arrow">&#8599;</span>
       </a>
-      <a :href="href" target="_blank" rel="noopener" class="card-link">
+      <a v-if="href" :href="href" target="_blank" rel="noopener" class="card-link">
         Code <span class="arrow">&#8599;</span>
       </a>
     </div>
