@@ -97,7 +97,7 @@ const projects = [
       'Integrated with REST APIs for live data synchronization'
     ],
     stack: ['Nuxt.js', 'REST API', 'JavaScript'],
-    href: 'gh repo clone pooja-sharma0505/admin',
+    href: '',
     demo: '',
     image: '/projects/welfog-admin.png'
   },
@@ -111,7 +111,7 @@ const projects = [
       'Integrated with MySQL for real-time analytics'
     ],
     stack: ['Nuxt.js', 'MySQL', 'JavaScript'],
-    href: 'gh repo clone pooja-sharma0505/Report-center',
+    href: '',
     demo: '',
     image: '/projects/report-center.png'
   }
