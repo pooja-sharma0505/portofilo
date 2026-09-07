@@ -71,7 +71,7 @@ const projects = [
     href: 'https://github.com/pooja-sharma0505/school-project',
     demo: 'https://school-project-bay-theta.vercel.app/',
     image: '/projects/scholar-ms.png',
-    demoNote: 'Demo credentials available on request'
+    demoNote: 'Email: admin@scholar.edu | Password: admin123'
   },
   // {
   //   index: '04',

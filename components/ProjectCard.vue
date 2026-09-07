@@ -6,7 +6,8 @@ defineProps({
   href: String,
   demo: { type: String, default: '' },
   index: String,
-  highlights: { type: Array, default: () => [] }
+  highlights: { type: Array, default: () => [] },
+  demoNote: { type: String, default: '' }
 })
 </script>
 
@@ -31,6 +32,7 @@ defineProps({
         Code <span class="arrow">&#8599;</span>
       </a>
     </div>
+    <p v-if="demoNote" class="demo-note">{{ demoNote }}</p>
   </article>
 </template>
 
@@ -108,4 +110,16 @@ h3 { font-size: 1.2rem; }
 }
 
 .card-link:hover { color: var(--accent); }
+
+.demo-note {
+  margin-top: 12px;
+  padding: 10px 14px;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--ink);
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  line-height: 1.5;
+}
 </style>
